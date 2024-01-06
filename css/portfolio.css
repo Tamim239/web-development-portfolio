@@ -55,10 +55,10 @@ nav a{
 }
 .header{
     background: #FFF8F3;
-    background-image: url('/images/header_bg.png');
+    background-image: url('/images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 630px;
+    background-position: bottom right, top left;
+    background-size: 630px, contain;
 
 }
 
@@ -156,6 +156,9 @@ font-size: 16px;
 
 
 /* resume style start */
+.resume-title{
+    margin-bottom: 70px;
+}
 
 
 .resume-colum-title  {
@@ -190,3 +193,39 @@ margin: 5px 0 20px;
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 110px 180px;
+    background: #FFF8F3;
+}
+.footer-colum{
+    width: 50%;
+
+}
+.social-links a {
+    margin-right: 30px;
+}
+
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    border-radius: 5px;
+background:  #FFF;
+margin: 5px 0 25px;
+padding: 18px 30px;
+border: none;
+  width: 80%;
+}
+
+.footer-title{
+    text-align: left;
+    margin-bottom: 0;
+}
+.footer-description {
+    margin: 5px 0;
+}
+
+/* footer end */
